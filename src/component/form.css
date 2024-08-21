@@ -1,0 +1,93 @@
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .container1, .container2, .container3 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 0; 
+  }
+  
+  .container1 .tag1, .container2 .tag6, .container3 .tag11 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"], input[type="time"], select {
+    width: 97%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  input[type="text"]:focus, input[type="time"]:focus, select:focus {
+    border-color: #00ff2a;
+    box-shadow: 0 0 5px rgba(0, 255, 13, 0.5);
+    outline: none;
+  }
+  
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #71e174;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: medium;
+    color:white;
+    border-color: transparent;
+
+    
+}
+button:hover{
+    background-color: rgb(124, 232, 124);
+    border-color: #00ff2a;
+    width: 90px;
+    height: 45px;
+   
+}
+/* App.css */
+.input-error {
+    border: 2px solid red;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Other styles remain the same as provided before */
+  
